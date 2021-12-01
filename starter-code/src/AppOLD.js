@@ -9,9 +9,9 @@ const cities = ["Berlin", "Lisbon", "Paris"]
 
 function App() {
     const [name, setName] = useState("")
-    // const [role, setRole] = useState("")
-    // const [city, setCity] = useState("")
-
+    const [role, setRole] = useState("")
+    const [city, setCity] = useState("")
+    
     const [foundUsers, setFoundUsers] = useState(users)
 
     const filter = e => {
